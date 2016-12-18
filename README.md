@@ -1,2 +1,2 @@
-# express-react-webpack-template
-Sample template that uses `webpack` + `react` + `express`
+# express-react-webpack-boilerplate
+Boilerplate that uses `webpack` + `react` + `express`
