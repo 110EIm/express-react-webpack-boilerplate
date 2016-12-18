@@ -1,2 +1,2 @@
 # express-react-webpack-template
-Sample template for `webpack` + `react` + `express`
+Sample template that uses `webpack` + `react` + `express`
