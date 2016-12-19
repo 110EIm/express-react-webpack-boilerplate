@@ -2,8 +2,7 @@ var path = require('path');
 
 module.exports = {
     entry: [
-        './src/client/index.jsx',
-        './src/client/styles/main.scss'
+        './src/client/index.jsx'
     ],
     output: {
         path: __dirname + '/public/',
