@@ -13,11 +13,12 @@ module.exports = {
         loaders: [
             {
                 test: /\.js$|\.jsx$/,
-                loaders: ['react-hot', 'babel?' + JSON.stringify({
+                loader: 'babel',
+                exclude: /node_modules/,
+                query: {
                     cacheDirectory: true,
                     presets: ['es2015', 'react']
-                })],
-                exclude: /node_modules/,
+                }
             },
             {
                 test: /\.scss$/,
